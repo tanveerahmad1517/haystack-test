@@ -7,7 +7,7 @@ Some notes:
 
 # Haystack oddities
 
-`Haystack` does not officially support `ElasticSearch` above 2.x I found this stated in the `Haytack` documentation here: http://django-haystack.readthedocs.io/en/master/installing_search_engines.html
+`Haystack` does not officially support `ElasticSearch` above 2.x I found this stated in the `Haystack` documentation here: http://django-haystack.readthedocs.io/en/master/installing_search_engines.html
 under the `ElasticSearch` section.
 
 I have found an unofficial fork of the `Haystack` repository that does support `ElasticSearch 5.x`
