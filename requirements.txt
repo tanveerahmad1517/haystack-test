@@ -1,0 +1,16 @@
+Required components:
+Django-1.11.5 
+django-haystack-2.6.1 
+django-haystack-elasticsearch-0.1.0 
+elasticsearch-5.4.0 
+pytz-2017.2 
+urllib3-1.22
+
+These are not the exact components you need these are simply the versions I installed to get the service working.
+You should have a python virtual environment available to install the required components in a controlled environment.
+
+Once you have installed virtualenv and created a virtual environment you only need one command to install the rest of the components you need.
+
+pip install "elasticsearch>=5.0.0,<6.0.0" django-haystack-elasticsearch
+
+This command will install all the required components.
