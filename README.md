@@ -17,3 +17,5 @@ The documentation for `Haystack` recommends using an `include` in our `urls.py`
 This saves us the trouble of setting up particular `views` for the search related elements, however it does mean that `Haystack` defaults to searching for templates in the `virtualenv` that we are currently using rather than the `Django` app we have created. Which is why I have included my environment titled `venv` in the repository.
 
 While `Haystack` does this for the templating it still relies on the standard `Django` method of migrating models and storing it's `searchIndexes` in the app directory of the project.
+
+All required components are specified in `requirements.txt` and can be installed with a single command `pip install "elasticsearch>=5.0.0,<6.0.0" django-haystack-elasticsearch`
