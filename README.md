@@ -2,9 +2,9 @@
 
 This repository contains some basic, initial workings on haystack.
 
-Haystack-test-2 contains a more in depth example with multiple types of records and different types of searching.
+Haystack-test-2 contains a more in depth example with multiple types of records and different types of searching: https://github.com/cedadev/haystack-test-2
 
-Haystack-moles-test contains a lot of moles style records and go more in depth about indexing.
+Haystack-moles-test contains a lot of moles style records and go more in depth about indexing: https://github.com/cedadev/haystack-moles-test
 
 # Haystack oddities
 
