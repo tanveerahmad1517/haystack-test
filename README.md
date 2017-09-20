@@ -1,7 +1,9 @@
 # haystack-test
 
 This repository contains some basic, initial workings on haystack.
+
 Haystack-test-2 contains a more in depth example with multiple types of records and different types of searching.
+
 Haystack-moles-test contains a lot of moles style records and go more in depth about indexing.
 
 # Haystack oddities
