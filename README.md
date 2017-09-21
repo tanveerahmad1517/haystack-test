@@ -32,8 +32,10 @@ If you find that the virtual environment does not work for you, you will need to
 virtualenv <name>
 source <name/bin/activate>
 sudo pip install "elasticsearch>=5.0.0,<6.0.0" django-haystack-elasticsearch
+python manage.py runserver
 `````
 This should install everything you need for the virtual environment to support the Django server.
+You should then be able to access a basic Model Search page at `localhost:8000/search`
 
 # Adding data/ Creating the index.
 
