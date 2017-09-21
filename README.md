@@ -1,4 +1,4 @@
-# haystack-test
+# Haystack-Test
 
 This repository contains some basic, initial workings on haystack.
 
