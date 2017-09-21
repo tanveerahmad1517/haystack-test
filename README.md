@@ -21,6 +21,19 @@ While `Haystack` does this for the templating it still relies on the standard `D
 
 All required components are specified in `requirements.txt` and can be installed with a single command `pip install "elasticsearch>=5.0.0,<6.0.0" django-haystack-elasticsearch`
 
+Ag ran into some unique issues with his SQL database being stored on a shared file system. In order to get the database up and running he went through the following steps:
+
+`````
+export DJANGO_SETTINGS_MODULE=testsite.settings
+python manage.py migrate
+
+GB
+# Had to change: `settings.py` to put the db.sqlite3 into a non-shared  drive (`/dbs`)
+python filetest.py
+python manage.py rebuild_index
+python manage.py runserver
+# Look at: http://localhost:8000/search/
+`````
 # Getting this example running
 
 I had no issue with pulling down the repo and using this command to use the Django server:
