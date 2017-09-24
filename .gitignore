@@ -1,1 +1,2 @@
 *.pyc
+testsite/testsite/settings_local.py
