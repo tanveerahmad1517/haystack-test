@@ -1,0 +1,7 @@
+HAYSTACK_CONNECTIONS = {
+    'default': {
+        'ENGINE': 'haystack_elasticsearch.elasticsearch5.Elasticsearch5SearchEngine',
+        'URL': '__LOCATION_OF_ES_SERVICE__',
+        'INDEX_NAME': '__ES_INDEX_NAME__',
+    },
+}
