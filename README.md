@@ -33,6 +33,7 @@ pip install -r requirements.txt
 Create the `settings_local.py` file:
 
 ```
+cd testsite/
 cp testsite/settings_local.py.tmpl testsite/settings_local.py
 ```
 
@@ -42,13 +43,12 @@ And edit the file to give the:
  2. Location of the Sqlite database. This must be a file on the local (not shared) file system.
 
 ```
-cd testsite/
 export DJANGO_SETTINGS_MODULE=testsite.settings
 python manage.py migrate
 
 GB
 # Had to change: `settings.py` to put the db.sqlite3 into a non-shared  drive (`/dbs`)
-python test.py
+python create_records.py
 python manage.py rebuild_index
 python manage.py runserver
 # Look at: http://localhost:8000/search/
