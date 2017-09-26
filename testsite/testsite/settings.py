@@ -32,7 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'haystackWork.apps.HaystackworkConfig',
+    'testapp.apps.TestAppConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -59,7 +59,7 @@ ROOT_URLCONF = 'testsite.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['haystackWork/templates/search'],
+        'DIRS': ['testapp/templates/search'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

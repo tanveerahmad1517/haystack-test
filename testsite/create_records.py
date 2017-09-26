@@ -2,7 +2,7 @@ from datetime import datetime as dt
 import django
 django.setup()
 
-from haystackWork.models import Note
+from testapp.models import Note
 from django.contrib.auth import get_user_model
 from django.contrib.auth.models import User
 
